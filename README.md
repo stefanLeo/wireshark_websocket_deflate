@@ -9,6 +9,11 @@ The auto detection of the HTTP flags is subject to future work.
 * Currently it is tested only on Linux. It should however work on Windows as well given the correct LUA setup
 * Wireshark 2.X (tested with 2.2.6 and 2.4.2 under Ubuntu)
 
+## Features
+* Supports DEFLATE Algorithm with LZ77 sliding window
+* Supports multiple WebSocket connections wihtin a single Capture
+* Supports TCP Re-Assambly 
+
 ## Installation & Setup on Linux (Ubuntu)
 1. Install Wirshark
     sudo apt-get install wireshark
