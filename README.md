@@ -11,7 +11,7 @@ The auto detection of the HTTP flags is subject to future work.
 
 ## Features
 * Supports DEFLATE Algorithm with LZ77 sliding window
-* Supports multiple WebSocket connections wihtin a single Capture
+* Supports multiple WebSocket connections within a single Capture
 * Supports TCP Re-Assambly 
 
 ## Installation & Setup on Linux (Ubuntu)
