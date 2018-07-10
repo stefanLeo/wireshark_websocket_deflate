@@ -28,7 +28,7 @@ The auto detection of the HTTP flags is subject to future work.
     cd luarocks-2.4.2
     ./configure; 
     sudo make bootstrap
-    sudo luarocks install lua_zlib
+    sudo luarocks install lua-zlib
     ```  
    Verify success:  
    Type in lua in commant line and the try 
@@ -55,7 +55,7 @@ Test Example with Wireshark 2.4.2 on Ubuntu 16.04 with 2 cores (i5 4210U) and 10
 
 | BucketSize                | Memory used by Wireshark  | Time needed for loading   |
 | ------------------------- |:-------------------------:| -------------------------:|
-| 1 = keep all in mem       | 2,4 GB                    | 0:38.212                  |
+| 1 = keep all in mem       | 2,4 GB                    | 0:38.212 (min:sec:msec)   |
 | 10                        | 490 MB                    | 0:41.412                  |
 | 100                       | 210 MB                    | 1:4.249                   |
 | 500                       | 190 MB                    | 3:10.221                  |
