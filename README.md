@@ -31,7 +31,7 @@ The auto detection of the HTTP flags is subject to future work.
     sudo luarocks install lua-zlib
     ```  
    Verify success:  
-   Type in lua in commant line and the try 
+   Type in lua in commant line and then try 
     ```require "zlib"```
 1. Copy the LUA plugin into the Wireshark Plugins directory  
    The Wireshark plugin directory ca be found by clicking "Help/About Wireshark".  
